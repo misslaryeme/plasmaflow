@@ -1,0 +1,14 @@
+# Minimal requirements for building documentation
+# Only the essential packages needed for Sphinx documentation
+
+# Sphinx core
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Sphinx extensions used in conf.py  
+sphinx-autodoc-typehints>=1.12.0
+
+# Minimal packages to avoid import errors during autodoc
+# These are mocked in conf.py so we don't need the real packages
+numpy>=1.20.0
+pandas>=1.3.0
